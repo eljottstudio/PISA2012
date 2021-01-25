@@ -55,19 +55,6 @@ Source: https://nces.ed.gov/pubs2014/2014024rev.pdf
 The original data set contains 485.490 students and 636 features. In order to identify the features that are interesting for us, we will begin to wrangle our data first. 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -2659,19 +2646,6 @@ It is very interesting to ask what differences in scores there are between migra
 
 We will keep variables that we have previously identified as helpful for our analysis using the Dictonary. 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -2835,57 +2809,11 @@ We will keep variables that we have previously identified as helpful for our ana
   </tbody>
 </table>
 </div>
-
-
-    CNT            0
-    ST03Q02        0
-    ST04Q01        0
-    AGE          116
-    PV1MATH        0
-    PV2MATH        0
-    PV3MATH        0
-    PV4MATH        0
-    PV5MATH        0
-    PV1READ        0
-    PV2READ        0
-    PV3READ        0
-    PV4READ        0
-    PV5READ        0
-    PV1SCIE        0
-    PV2SCIE        0
-    PV3SCIE        0
-    PV4SCIE        0
-    PV5SCIE        0
-    COBN_F      3665
-    COBN_M      3647
-    COBN_S      3654
-    IMMIG      13697
-    dtype: int64
-
-
-
 Now we have to replace the NaN values of the students age in the dataset with the mean age
-
-    0
-
-
 
 In the next step we have to compute the average of the scores of a student in a particular discipline (Math, Science, Reading)
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -3079,19 +3007,6 @@ In the next step we have to compute the average of the scores of a student in a 
 We can drop the not necessary columns now.
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -3194,19 +3109,6 @@ We can drop the not necessary columns now.
 
 In the next step we will change the column names the make them more clear using the dictionary which was provided. 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
